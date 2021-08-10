@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none!important;
+    font-size:14px;
+    font-weight: 500;
+}
+
+#navbar{
+    height: 90px!important;
+}
+
+.loader-icon{
+    position: fixed;
+    top:0;
+    left:42%;
+    animation: loader linear 2s;
+}
+@keyframes loader{
+    0%{
+        top:100%
+    }
+    20%{
+        top:70%;
+    }
+    50%{
+        top:50%;
+    }
+    70%{
+        top: 30%;
+    }
+    100%{
+        top: 0%;/
+    }
+}
+#loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #008248;
+    z-index: 9999;
+}
+li{
+    list-style: none;
+}
+button:hover{
+    opacity: 0.5;
+}
+button:hover a{
+    color: white;
+}
+#navbar .right{
+    display: flex;
+}
+
+#navbar .left{
+    display: flex;
+}
+
+#navbar .left li{
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+#navbar .right li{
+    display: flex;
+    padding-right: 15px;
+    align-items: center;
+}
+
+#navbar .left a:hover{
+    color: #008248;
+}
+
+#navbar a{
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#navbar .right .mainButton{
+    background: transparent;
+}
+
+.mainButton:hover{
+    background-color: #f0f0f0 !important;
+}
+
+.colorButton{
+    background: black;
+}
+
+.colorButton:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.colorButton a{
+    color: white;
+    text-transform: capitalize;
+}
+
+
+button{
+    padding: 8px 20px;
+    border-radius: 25px;
+    box-shadow: none;
+    border: none;
+    border: black solid 1px;
+}
+
+#navbar .right i{
+    font-size: 30px;
+}
+
+#navbar{
+    display: flex;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19.5px;
+    letter-spacing: 1.3px;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-family: 'poppins', sans-serif;
+/*    border: 1px solid;*/
+}
+/*****************************************card******************************************************
+*/
+.no-gutters{
+    margin: 0!important;
+    padding: 0!important;
+}
+
+#card-1{
+    background-color: #d6152b;    
+}
+#card-2{
+    background-color: #006241;
+}
+.card-content{
+    text-align: center;
+    margin:20% 0;
+}
+.card-content .contentHeading{
+    font-size: 50px;
+    letter-spacing: 8px;
+    font-weight: 700;
+    color: white;
+/*    line-height: 31.5px;*/
+}
+.card-content  p{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: white;
+/*    line-height: 31.5px;*/
+}
+.card-content .colorButton{
+    border-color: white!important;
+}
+
+
+.about{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.26);
+}
+.about ul:first-child{
+    padding-left: 50px; 
+}
+.about ul li{
+    padding-bottom: 30px;
+}
+.about ul{
+    padding-right: 40px;
+}
+h3{
+    text-transform: capitalize;
+}
+.about ul li a:hover{
+    color: black;
+}
+.about ul li a{
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.social-icons .icons-design{
+    display: flex;
+}
+
+.social-icons .icons-design li{
+    margin-left: 8px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: black;
+/*    text-align: center;*/
+    
+}
+.social-icons .icons-design{
+    margin-right: 50px;    
+}
+.social-icons .icons-design li a{
+    color: white;
+}
+/************************************************card3*******************************************************/
+#card-3{
+ background-color: #1E3932;
+height: 210px;
+    color: white;
+}
+#card-3 h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+#card-3 p,#card-3 a{
+    line-height: 36px;
+    color: white;
+    letter-spacing: -0.14px;
+    font-size: 24px;
+    text-align: center;
+}
+#card-3 a{
+    text-decoration: underline!important;
+}
+/************************************************card4*******************************************************/
+#card-4{
+    height: 530px;
+    background-color: #DFEFE9;
+}
+.card span{
+    font-size: 36px;
+}
+#card-4 span{
+    color: black;
+    font-size: 36px;
+    font-weight: 400;
+}
+#card-4 p{
+    color: black;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.14px;
+}
+#card-4 .colorButton,#card-5 .colorButton{
+    border-color: black!important;
+}
+#card-4 .colorButton a,#card-5 .colorButton a{
+    color:black!important;
+    font-weight: 700!important;
+}
+/************************************************card5*******************************************************/
+#card-5{
+    background-color: #F9F9F9;     
+}
+#card-5 span{
+    color:black;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#card-5 p{
+    text-align: center;
+    color: black;
+    line-height: 31.5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/************************************************card6*******************************************************/
+#card-6 p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24.3px;
+    letter-spacing: -0.4px;
+}
+#card-6 sup{
+    font-size:10.5px;
+}
